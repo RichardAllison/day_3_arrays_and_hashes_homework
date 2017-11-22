@@ -71,9 +71,13 @@ end
   }
 
 # 1. Get Jonathan's Twitter handle (i.e. the string `"jonnyt"`)
+users["Jonathan"][:twitter]
 # 2. Get Erik's hometown
+users["Erik"][:home_town]
 # 3. Get the array of Erik's favourite numbers
+users["Erik"][:favourite_numbers]
 # 4. Get the type of Avril's pet Colin
+users["Avril"][:pets]["colin"]
 # 5. Get the smallest of Erik's favourite numbers
 # 6. Add the number `7` to Erik's favourite numbers
 #.sort?
